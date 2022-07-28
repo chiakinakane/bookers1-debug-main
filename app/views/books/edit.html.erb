@@ -1,0 +1,8 @@
+<h1>Editing Book</h1>
+
+<%#9変更箇所<form>%>
+<%= render 'form', book: @book %>
+<%#9変更箇所</form>%>
+
+<%= link_to 'Show', @book %> |
+<%= link_to 'Back', books_path %>
